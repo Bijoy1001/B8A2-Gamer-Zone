@@ -167,3 +167,65 @@ li > img, .icon{
     border-radius: 48px;
     background: #4EC5F7; 
 }
+
+
+.online{
+    text-align: center;
+    margin-top: 80px;
+    font-size: 48px;
+    font-weight: 700;
+}
+.text-color{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+
+.online-text{
+    text-align: center;
+    color: #534C64;
+    margin-bottom: 20px;
+}
+
+.img-item{
+    display: flex;
+    gap: 20px;
+    margin-left: 250px;
+    padding-top: 50px;
+}
+
+.horse{
+    display: flex;
+    gap: 100px;
+}
+
+.horse-text{
+    text-align: center;
+    margin-top: 200px;
+    margin-left: 320px;
+    font-size: 30px;
+
+}
+
+.hours-text02{
+    color: #534C64;
+    font-size: 15px;
+}
+
+.hours-pic{
+   
+    width: 650px;
+    height: 750px; 
+    border-radius: 8px; 
+    margin-top: 100px;
+    margin-left: 90px;
+  
+}
+
+.picchi-img{
+     position: relative;
+     bottom: 250px;
+   
+     
+}
