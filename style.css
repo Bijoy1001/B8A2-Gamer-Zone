@@ -91,7 +91,7 @@ li > img, .icon{
 
 .img-text02{
     position:absolute ;
-    top: 70px;
+    top: 90px;
     padding: 50px 100px;
     font-size: 60px;
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
@@ -232,20 +232,20 @@ li > img, .icon{
 
 .icon-hober{
     display: flex;
-    align-items: center;
-    gap: 50px;
-    margin-left: 50px ;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    gap: 50px;
+    padding: 20px 500px;
+
 }
 
-.hober-icon01{
+
    
    
 }
 .card{
     top: 240px;
     padding: 40px 0px;
-    border-radius: 50px;
+    gap: 30px;
     background: #FFF;
 }
 
@@ -298,4 +298,65 @@ li > img, .icon{
    padding: 50px;
 
 
+}
+
+/*----------------Responsive media queries-----------*/
+/*----------Mobile Device------------*/
+
+@media screen and (max-width: 576px){
+    header{
+        padding: 20px;
+    }
+    nav > ul,
+    .header-top,
+    .section01, 
+    .img-item,
+    .icon,
+    .horse-text,
+    .horse,
+    .footer,
+    .suppor-text,
+    .icons-all-midea{
+        flex-direction: column;
+    }
+
+    .img-item{
+        width: 90%;
+        margin-left: 0;
+    }
+
+    .{
+        position: static;
+        max-width: 300px;
+    }
+
+    .horse,
+    .horse-text,
+    .img-item{
+        grid-template-columns: 1fr;
+    }
+
+    .img-item,
+    .horse{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+
+}
+
+/*---------------Tablet or Medium Devices-----------*/
+
+@media screen and (min-width: 576px) and (max-width: 960px){
+    header{
+        padding: 50px;
+    }
+    
+    nav,
+    .Features,
+    .teams-container,
+    .Sponsers-img{
+        flex-direction: column;
+    }
+    
 }
