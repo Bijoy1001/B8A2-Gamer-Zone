@@ -1,0 +1,169 @@
+/*---------------Google Font------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+*{
+    font-family: 'Work Sans', sans-serif; 
+}
+
+/*----------------Header Section----------------*/
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 240px;
+}
+
+.nav-titel{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    width: 80px;
+    height: 40px;
+  
+}
+
+.nav-titel h1{
+    font-size: 40px;
+
+   
+}
+
+
+.nav-text{
+    color: #FF42A5;
+    
+}
+
+
+
+nav > ul, .icon{
+     display: flex;
+}
+
+ul > li, .icon {
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+nav li a, .icon {
+    text-decoration: none;
+}
+
+li > img, .icon{
+    width: 33.916px;
+    height: 24px;  
+    
+}
+
+.icon{
+    width: 200px;
+    gap: 10px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+}
+
+/*-----------------Main--------------------*/
+
+.section01{
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.img01{
+    width: 711px;
+    height: 446px;
+    }
+
+.section-titel{
+    position: relative;
+}
+
+.img-text{
+   position:absolute ;
+   top: 10px;
+   padding: 50px 100px;
+   font-size: 40px;
+}
+
+.img-text02{
+    position:absolute ;
+    top: 70px;
+    padding: 50px 100px;
+    font-size: 60px;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+
+.icons-titel00{
+    position:absolute ;
+    color: #534C64;
+    top: 192px;
+    padding: 50px 135px;
+    font-size: 15px
+   
+}
+
+.icons-titel01{
+    position:absolute ;
+    color: #534C64;
+    top: 225px;
+    padding: 50px 135px;
+    font-size: 15px
+}
+
+.icons-titel02{
+    position:absolute ;
+    color: #534C64;
+    top: 255px;
+    padding: 50px 135px;
+    font-size: 15px
+}
+
+.icons{
+    position: absolute;
+    top: 210px;
+    padding: 50px 100px;
+   
+}
+
+.icons01{
+    position: absolute;
+    top: 240px;
+    padding: 50px 100px;
+   
+}
+
+.icons02{
+    position: absolute;
+    top: 270px;
+    padding: 50px 100px;
+}
+
+
+.btn-primary01{
+    position: absolute;
+    top: 370px;
+    color: #FFF;
+    font-size: 20px;
+    padding: 21px 40px;
+    margin-left: 100px;
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+}
+
+.btn-primary02{
+    position: absolute;
+    top: 370px;
+    color: #FFF;
+    font-size: 20px;
+    padding: 21px 40px;
+    margin-left: 300px;
+    border-radius: 48px;
+    background: #4EC5F7; 
+}
